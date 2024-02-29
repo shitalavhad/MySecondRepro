@@ -22,7 +22,9 @@ System.setProperty("webdriver.chrome.driver","G:\\chromedriver_win32 (6)\\chrome
 		
 		System.out.println("Page Title:"+driver.getTitle());
 		
-		System.out.println("Page Title:"+driver.getCurrentUrl());
+		System.out.println("Page currentUrl:"+driver.getCurrentUrl());
+		
+		System.out.println("Page souece code:"+driver.getPageSource());
 		
 		driver.close();
 		
