@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+import org.openqa.selenium.*;
 
 public class Demo {
 	@Test
@@ -28,6 +29,7 @@ System.setProperty("webdriver.chrome.driver","G:\\chromedriver_win32 (6)\\chrome
 		
 		Dimension d=new Dimension(200,500);
 		driver.manage().window().setSize(d);
+		
 		driver.close();
 		
 	}
